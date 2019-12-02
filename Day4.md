@@ -131,4 +131,13 @@ Xiyang Hu (Carnegie Mellon University)\
 Cynthia Rudin (Duke)\
 Margo Seltzer (University of British Columbia)
 
+# Socials
+
+[ML 4 Space Social](https://www.eventbrite.com/e/ml-4-space-neurips-tickets-83996145733)\
+Wed Dec 11th 07:00 -- 10:00 PM @ West 217 - 219
+
+[T-PRIME](https://www.eventbrite.com/e/t-prime-neurips-social-tickets-83317748629)\
+Wed Dec 11th 07:00 -- 10:00 PM @ West 223 + 224
+
+
 

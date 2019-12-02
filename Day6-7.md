@@ -21,3 +21,7 @@ Atilim Gunes Baydin · Juan Carrasquilla · Shirley Ho · Karthik Kashinath · M
 [Science meets Engineering of Deep Learning](https://sites.google.com/corp/view/sedl-neurips-2019/)\
 Levent Sagun · Caglar Gulcehre · Adriana Romero · Negar Rostamzadeh · **Nando de Freitas**
 
+# Socials
+
+Probabilistic Programming Social\
+Sat Dec 14th 07:00 -- 10:00 PM @ West 220 - 222

@@ -151,6 +151,14 @@ Jonathan Ho (UC Berkeley)\
 Evan Lohn (University of California, Berkeley)\
 **Pieter Abbeel (UC Berkeley & covariant.ai)**
 
+# Socials
+
+Inverse Problems Social\
+Tue Dec 10th 07:00 -- 10:00 PM @ West 223 + 224
+
+British Parliamentary Style Debate\
+Thu Dec 12th 07:00 -- 10:00 PM @ West 217 - 219
+
 
 
 

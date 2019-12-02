@@ -1,5 +1,7 @@
 # Dec 8, Sunday 
 
+[Expo Flyer](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf)
+
 ## Workshops
 
 9 am : West 118 - 120\
