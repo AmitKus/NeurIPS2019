@@ -134,6 +134,22 @@ Xiyang Hu (Carnegie Mellon University)\
 Cynthia Rudin (Duke)\
 Margo Seltzer (University of British Columbia)
 
+
+# Demonstrations
+
+5:30 pm -- 10:30 PM @ East Exhibition Hall B + C\
+
+808: AllenNLP Interpret: Explaining Predictions of NLP Models\
+Jens Tuyls · Eric Wallace · Matt Gardner · Junlin Wang · Sameer Singh · Sanjay Subramanian
+
+810: AIDEme: An active learning based system for interactive exploration of large datasets\
+Enhui Huang · Luciano Di Palma · Laurent Cetinsoy · Yanlei Diao · Anna Liu
+
+**813: Real Time CFD simulations with 3D Mesh Convolutional Networks**\
+Pierre Baque · Pascal Fua · François Fleuret
+
+
+
 # Socials
 
 [ML 4 Space Social](https://www.eventbrite.com/e/ml-4-space-neurips-tickets-83996145733)\

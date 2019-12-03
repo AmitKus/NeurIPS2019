@@ -154,6 +154,21 @@ Jonathan Ho (UC Berkeley)\
 Evan Lohn (University of California, Berkeley)\
 **Pieter Abbeel (UC Berkeley & covariant.ai)**
 
+
+# Demonstrations
+
+5:30 pm -- 10:30 PM @ East Exhibition Hall B + C\
+
+802: Streamlit, a new app framework for machine learning tools\
+Adrien Treuille · Amanda Kelly
+
+803: Discovering Neural Wirings Neural Network Visualizer\
+Alvaro Herrasti · Mitchell Wortsman
+
+813: Realtime Modeling and Anomaly Detection in Multivariate Data Streams\
+Christopher Hannon · Andrey Lokhov · Deep Deka
+
+
 # Socials
 
 Inverse Problems Social\
