@@ -1,5 +1,5 @@
 # NeurIPS2019
 
-![](ConferenceGlance.png)
+![](pictures/ConferenceGlance.png)
 
 https://neurips2019exploration.herokuapp.com/
