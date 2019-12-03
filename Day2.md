@@ -1,5 +1,6 @@
 # Dec 9, Monday 
 
+
 ## [Tutorials](https://nips.cc/Conferences/2019/ScheduleMultitrack)
 
 9:30 am : West Hall A\
@@ -17,6 +18,10 @@ Katja Hofmann
 
 05:00 pm : West Hall C + B3\
 Opening Remarks
+
+5:45 - 6:35 AM\
+**Invited talk: Celeste Kidd**\
+How To Know
 
 06:35 pm: East Exhibition A, Ballrooms B C\
 Opening Reception

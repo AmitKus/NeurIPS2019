@@ -1,5 +1,18 @@
 # Dec 10, Tuesday 
 
+8:30 - 9:20 AM\
+**Invited talk: Bin Yu**\
+Veridical Data Science
+
+2:15 - 3:05 PM\
+**Invited talk: Dana Pe’er**\
+Machine learning meets single-cell biology: insights and challenges
+
+3:05 - 3:25 AM\
+**Test Of Time Award: Lin Xiao**\
+Dual Averaging Method for Regularized Stochastic Learning and Online Optimization
+
+
 ## [Orals](https://nips.cc/Conferences/2019/ScheduleMultitrack?text=&session=&event_type=&day=2019-12-10)
 
 10:05 am : West Ballroom C\

@@ -1,4 +1,13 @@
-# Dec 11, Tuesday 
+# Dec 11, Wednesday 
+
+8:30 - 9:20 AM\
+**Invited talk: Blaise Aguera y Arcas**\
+Social Intelligence
+
+2:15 - 3:05 PM\
+**Invited talk: Yoshua Bengio**\
+From System 1 Deep Learning to System 2 Deep Learning
+
 
 ## [Orals](https://nips.cc/Conferences/2019/ScheduleMultitrack?text=&session=&event_type=&day=2019-12-11)
 

@@ -2,4 +2,7 @@
 
 ![](https://media.neurips.cc/Conferences/NeurIPS2019/vancouver_image.jpg)
 
+
+![](ConferenceGlance.png)
+
 https://neurips2019exploration.herokuapp.com/
