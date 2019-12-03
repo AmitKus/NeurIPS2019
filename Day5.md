@@ -1,12 +1,6 @@
 # Dec 12, Thursday
 
-8:30 - 9:20 AM\
-**Invited talk: Kafui Dzirasa**\
-Mapping emotions: Discovering structure in mesoscale electrical brain recordings
-
-2:15 - 3:05 PM
-**Invited talk: Jeff Heer**\
-Agency + Automation: Designing Artificial Intelligence into Interactive Systems
+![](Thursday_Day5_Glance.png)
 
 ## [Orals](https://nips.cc/Conferences/2019/ScheduleMultitrack?text=&session=&event_type=&day=2019-12-12)
 

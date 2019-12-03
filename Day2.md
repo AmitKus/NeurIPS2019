@@ -1,9 +1,10 @@
 # Dec 9, Monday 
 
+![](Monday_Day2_Glance.png)
 
 ## [Tutorials](https://nips.cc/Conferences/2019/ScheduleMultitrack)
 
-9:30 am : West Hall A\
+8:30 am : West Hall A\
 [Deep Learning with Bayesian Principles](https://nips.cc/Conferences/2019/ScheduleMultitrack?event=13205)\
 Emtiyaz Khan (RIKEN)
 
