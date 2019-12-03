@@ -1,6 +1,6 @@
 # Dec 11, Wednesday 
 
-![](Wednesday_Day4_Glance.png)
+![](pictures/Wednesday_Day4_Glance.png)
 
 
 ## [Orals](https://nips.cc/Conferences/2019/ScheduleMultitrack?text=&session=&event_type=&day=2019-12-11)

@@ -1,6 +1,6 @@
 # Dec 9, Monday 
 
-![](Monday_Day2_Glance.png)
+![](pictures/Monday_Day2_Glance.png)
 
 ## [Tutorials](https://nips.cc/Conferences/2019/ScheduleMultitrack)
 
