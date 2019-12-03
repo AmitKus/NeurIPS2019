@@ -155,7 +155,7 @@ Si Li (Beijing University of Posts and Telecommunications)\
 Marc Pollefeys (ETH Zurich)\
 Boxin Shi (Peking University)
 
+# Socials
 
-
-
-
+British Parliamentary Style Debate\
+Thu Dec 12th 07:00 -- 10:00 PM @ West 217 - 219
