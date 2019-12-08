@@ -1,14 +1,65 @@
 # Dec 8, Sunday 
 
-[Expo Flyer](https://media.neurips.cc/Conferences/NeurIPS2019/NeurIPS_Expo_Book_2019.pdf)
 
-## Workshops
+# [Hudson River Trading: AI in Financial Services and Markets](https://nips.cc/ExpoConferences/2019/schedule?workshop_id=22)
 
-9 am : West 118 - 120\
-[Facebook: Multi-modal Research to Production with PyTorch and Facebook](https://nips.cc/ExpoConferences/2019/schedule?workshop_id=16)
+**Notes**
 
-2 pm: West 217 - 219\
-[Hudson River Trading,: AI in Financial Services and Markets](https://nips.cc/ExpoConferences/2019/schedule?workshop_id=22)
+[Sameena Shah](https://www.linkedin.com/in/sameenashah/)
+
+## Presentation 1: Link Prediction
+
+Predicting missing data flows in large communication networks.
+
+Multiplex network: Undirected graph -> Set of undirected graph
+Given a network: 
+    What link are supposed to showup in future (predict future missing links)?
+
+Applications:
+
+    * Biological networks
+    * Transportation Networks
+    * Global trade networks
+    * Social networks
+
+Approach:
+
+    * Simple, interpretable for unsupervised link prediction
+    * Highly structured correlation
+
+Concepts:
+
+    * Erdos-Renyi Graph
+    * Pierre-Auger Physics Collaboration Network
+    * European Airlines Networks
+    * Global Trade Network
+    * The link prediction problem for social network (Liben-Nowell)
+
+
+## Presentation 2: Privacy Preserving Analytics
+
+Private Data ----> Train Model <------Secret Model
+
+Secure multi-party Computation
+
+Salary example: R+x1 -> R+X1+X2 -> R+X1+X2+X3 -> R+X1+X2+X3-R
+
+
+## Presentation 3:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Talks
 
