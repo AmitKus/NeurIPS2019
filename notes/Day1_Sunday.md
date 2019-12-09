@@ -176,7 +176,14 @@ Validating models in medicine?
  DrumNet
 
  AlxGastronomy
+
+ Can we build an AI that wins 3 michellin star?
+
+ Sony AI: Gaming, Imaging and Sensing, Gastronomy
+
  
+
+
 
 
 ## Demo
