@@ -38,7 +38,7 @@ Parsi, German "Continual lifelong learning with neural networks: A review"
     * Gradient descent: derived by choosing Gaussian with fixed covariance
     * Newtons methos: derived by choosing Gausian with non-fixed covariance
     * Khan and Rue, "Learning-ALgorithms from Bayesian Principles" (**Good reference**)
-    * "Global" to "local": Eq[l(theta)] ~ l(m)
+    * "Global" to "local": $$ Eq[l(\theta)] \approx l(m) $$
     * RMSProp: 
         * Choose gaussian with diagonal covarince
         * Replace Hessian by square of gradients
@@ -83,6 +83,91 @@ Active deep learning: Select "important" examples while training (By Roman Bachm
 
 # [Interpretable Comparison of Distributions and Models](https://nips.cc/Conferences/2019/ScheduleMultitrack?event=13208)
 Wittawat Jitkrittum, Dougal J Sutherland, Arthur Gretton
+
+Gatsby Unit UCL
+
+Class of problems:
+
+    * Samples from unknown distributions P and Q. Do P & Q differ?
+    * Samples from unknown Q, model P & Q. Do P & Q differ?
+
+## Divergence measures:
+  * Integral probability metrics (IPM)
+  * $\phi$-divergences
+
+P-Q difference: Integral prob. metrics 
+
+    * Wasserstein
+    * MMD
+    * Find a "well behaved function" $f(x)$ to maximize
+$$ E_Pf(X) - E_Qf(Y) $$
+
+IPMs in practice:
+    * Wasserstrin-1 distance: Drops when two distributions move closer to each other.
+    * MMD: Maximum mean discrepancy
+
+$\phi$-divergences: P/Q ratio: $\phi$-divergences
+
+KALE Divergence
+
+Wasserstein Autoencoder
+
+
+
+
+
+
+# Efficient Processing of DNN: From algorithms to hardware
+
+## CPU vs GPU:
+    * Both have very optimized matrix multiplication libraries
+    * Map DNN to Matrix Mulitplication
+    * Convolutional layer can be converted to Toeplitz Matrix (Data is repeated)
+    * CPU: OpenBLAS, InTEL MKL, 
+    * GPU: CuBlas
+    * Matric multiplication tiled to fit in cache (i.e. on-chip memory) and computation ordered to reuse cache
+    * Reduce operations in matrix multiplication: FFT, Strassen, Winograd
+    * Perform more MACs per instruction:
+      * CPU: SIMD/Vector instructions
+      * GPU: SIMT/Tensor Instructions
+    * Perform more MACs per cycle without increasing memory bacdwidth by adding reduced precision
+    * Software:
+      * Reduce unnecessary MACs
+      * Increase PE utilization
+    * Hardware:
+      * Reduce time per MAC
+      * Increase number of parallel MACs
+      * Increase PE utilization (Increase on-ship storage, external bandwidth increase NVLink etc)
+
+
+## Specialized domain:
+    * Operations exihibit high parallelism
+    * Memory Access is the Bottelneck
+    * Input data reuse: exploit low cost memory: Convolutional reuse, Fmap reuse, Filter reuse
+    * Spatial architecture
+    * Goal: increase reuse of input data (weights and activations) and local partial sums accumulation (data flow)
+
+## Efficient dataflows:
+    * Data Mmovement is expensive
+    * Specialized hardware with small low cost memory near compute
+    * Maximize data reuse at low cost levels of memory hierarchy
+    * Weight stationarity
+    * Output stationarity
+    * Input stationarity
+    * Row stationary dataflow
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
