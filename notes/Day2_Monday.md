@@ -112,8 +112,11 @@ KALE Divergence
 
 Wasserstein Autoencoder
 
+### Testing Explicit Models with Kernel Stein
 
-
+Can we compute MMD with **samples** and a **density p**?\
+Problem1: ususally can't compute $E_pf$ in closed form\
+Problem2: cannot sample from p.
 
 
 
@@ -160,22 +163,130 @@ Wasserstein Autoencoder
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 # [Reinforcement Learning: Past, Present, and Future Perspectives](https://nips.cc/Conferences/2019/ScheduleMultitrack?event=13211)
 Katja Hofmann
+
+Reinforcement learning is all about making decisions and learning from those.
+
+Reinforcement learning = Decision making and Learning under uncertainty
+
+## Formalizing RL
+### Markov decision process (MDPs) [Bellman 1953]
+
+**agent** with a (learnable) behaviour policy\
+**environment** with initially unknown dynamics and reward.
+
+Dynamics: 
+$$ T(s_{t+1} | s_t, a_t) $$
+Reward: 
+$$ R(r_{t+1} | s_t, a_t) $$
+Behaviour policy:
+$$ \pi(a | s)$$
+
+### Optimality in MDP
+
+Finite-horizon:
+$$ E (\sum_{t=0}^{h} r_t)$$
+
+Infinite-horizon:
+$$ E (\sum_{t=0}^{\infty} \gamma^tr_t)$$
+
+Average-reward
+
+### Learning Performance
+
+Asymptotic convergence: 
+$$ \pi_n -> \pi^* \text{ as } n->\infty$$
+
+PAC
+
+Regret: Highest possible achievable at current time - how much the agent achieved
+
+### Key RL Challenges
+
+    * Explore-exploit
+    * Credit assignment
+    * Function approximation
+
+
+[Kaelbling, Littman & Moore, 1996]
+
+## Value Functions
+
+### Dynamic programming and Bellman equations
+
+Optimal state-value function
+
+Temporal Difference Error
+
+TD-Gammon: Gerald Tesauro, TJ Watson Research Center
+
+Q-Learning: Q is the value of the state-action pair [Watkins 1989]
+
+Project Malmo: Try Tutorial 6
+
+
+### Q-Learning with Function Approximation
+Parametrize Q with function Approximation, e.g. a deep neural network
+
+### Stability
+THe "deadly triad". In face of all three, learning is unstable.
+
+    1. Off-policy learning
+    2. Flexible function approximation
+    3. Bootstrapping
+
+Solution: DQN stabilizes learning.
+
+## Exploration
+
+    * Optimistic initialization: Mountain car problem
+    * Epsilon-greedy approach
+    * Softmax policy
+    * Upper confidence bound
+    * Posterior sampling
+  
+## Policy gradient and actor critic approaches
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 **Invited talk: Celeste Kidd**\
 How To Know
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
