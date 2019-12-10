@@ -1,7 +1,5 @@
 # Dec 10, Tuesday 
 
-![](pictures/Tuesday_Day3_Glance.png)
-
 
 ## [Orals](https://nips.cc/Conferences/2019/ScheduleMultitrack?text=&session=&event_type=&day=2019-12-10)
 
@@ -11,6 +9,31 @@
 Maxence Ernoult (Université Paris Sud)\
 Benjamin Scellier (Mila, University of Montreal)\
 **Yoshua Bengio (Mila)**
+
+Notes:
+
+Backpropagation:
+
+    * Method of choices
+    * Non local learning rules
+  
+Contrastive Hebbing Learning:
+
+    * Used to train Boltzmann Machine
+
+What is equilibrium propagation?
+
+Work: discrete-time version of EqProp
+
+    * Equivalent to BPTT on RNNs
+    * Gradients of BPTT = Temporal updates of EP
+
+Summary:
+
+    * EqProp can train a CNN and FC prototypical model
+    * EP performs as well as BPTT.
+    * Scaling EqProp to Deeper Architectures: The deeper the network, the less the GDU holds.
+    * EqProp is difficult to scale
 
 ## [Spotlights](https://nips.cc/Conferences/2019/ScheduleMultitrack?text=&session=&event_type=&day=2019-12-10)
 
@@ -22,6 +45,16 @@ Aaron Voelker\
 Ivana Kajić\
 Chris Eliasmith
 
+### Notes
+LSTMs: Multiple application. Difficult to scale for long windows of time.
+
+LMUs: Scalable in time.
+Performs better on chaotic time series benchmark compared to LSTMs.
+Input is transformed over Legendre Polynomial Basis functions.
+Discretized differential equations is used.
+
+
+
 [Point-Voxel CNN for Efficient 3D Deep Learning](https://neurips.cc/Conferences/2019/ScheduleMultitrack?event=15734)\
 [3 min video](https://pvcnn.mit.edu/)\
 Zhijian Liu (MIT)\
@@ -29,10 +62,39 @@ Haotian Tang (Shanghai Jiao Tong University)\
 Yujun Lin (MIT)\
 Song Han (MIT)
 
+Power requirement and latency main issues for 3D models.
+
+Voxel based methods: Cubically groqing memory.
+
+Point-based models: Sparsity overheads
+
+3D part segmentation (ShapeNet)
+
+3D semantic segmentation (S3DIS)
+
+3D object detection (KITTI)
+
+Point-voxel CNN for efficient 3D deep learning
+
+
+
 [Neural Networks with Cheap Differential Operators](https://neurips.cc/Conferences/2019/ScheduleMultitrack?event=15735)\
 [Poster](http://www.cs.toronto.edu/~rtqichen/posters/diffopnet_poster.pdf)\
 Ricky Tian Qi Chen (U of Toronto)\
 **David Duvenaud (University of Toronto)**
+
+Differential operators: Multiple 
+
+Automatic Differentiation:
+
+HollowNets
+
+detach functionalty in PyTorch.
+
+Application 1: Finding Fixed Points.
+
+Application 1: Continuously Normalizing Flow.
+
 
 [Sequential Neural Processes
 ](https://neurips.cc/Conferences/2019/ScheduleMultitrack?event=15736)\
@@ -41,12 +103,30 @@ Jaesik Yoon (SAP)\
 Youngsung Son (Electronics and Telecommunications Research Institute)\
 Sungjin Ahn (Rutgers University)
 
+### Notes:
+
+What if the stochastic process also had some underlying temporal process?
+
+
+
 [Deep Equilibrium Models](https://neurips.cc/Conferences/2019/ScheduleMultitrack?event=15737)\
 [Poster](https://github.com/locuslab/deq/blob/master/presentations/DEQ_poster.pdf)\
-[Slides](https://github.com/locuslab/deq/blob/master/presentations/DEQ_slides.pdf)\
+[Slides](https://github.com/locuslab/deq/blob/master/presentations/DEQ_slides.pdf)
 Shaojie Bai (Carnegie Mellon University)\
 J. Zico Kolter (Carnegie Mellon University / Bosch Center for AI)\
 Vladlen Koltun (Intel Labs)
+
+We can replace many classses of deep models with a single layer, keep the number of parameters same.
+
+Deep Equilibrium Model: Formulate the problem as root-finding problem.
+
+Concept: Weight-tying
+
+How should we understand depth in deep networks?
+
+
+
+
 
 ## [Orals](https://nips.cc/Conferences/2019/ScheduleMultitrack?text=&session=&event_type=&day=2019-12-10)
 

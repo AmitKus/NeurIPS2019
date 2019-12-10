@@ -8,4 +8,12 @@ Example of Nate Silver's book (Tohoku data) (**Good example**)
 
 Mountain car problem (**RL**)
 
+Molnar (2019) book: Interpretable ML
+
+Covariate structure: Clustering
+
+Diffusion Maps
+
+
+
 
