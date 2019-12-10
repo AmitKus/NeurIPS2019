@@ -248,29 +248,73 @@ Solution: DQN stabilizes learning.
   
 ## Policy gradient and actor critic approaches
 
+* REINFORCE Framework
+  * Proceeds in episodes
+  * Policy is parametrized by parameter $\theta$
+  * NeurIPS 2016 Tutorial
+
+### Actor critic with deep function approximation
+
+Need to balance between learning speed, stability
+
+## RL Applications
+
+Personalizer
+http://hunch.net/~rwil
+
+Robotics
+https://sites.google.com/view/icml17deeprl
+
+Tutoring systems
+https://cs.stanford.edu/people/ebrun/NIPS_2017_tutorial_brunskill.pdf
+
+**Key Challenge: Sample efficient algorithms**
+
+## Generalization
+
+Example: generalization using successor features, rapidly adapt to new reward structure.\
+How may tasks are needed before modern approaches generalize?\
+Regularization: Prevous appraoches developed for supervised learning, not RL.
+
+## Structure
+
+**Meta learning:** learn to learn, eg. learn an update rule from related tasks. Example, tasks are related through low-dimensional embedding.
+
+**Model-agnostic meta learning:** Flexible meta-learning approach based on 2nd order gradient. 2-stage gradient-based approach on batches on tasks.
+
+**CAVIA:** Many parameter + few data points can lead to overfitting.
+
+
+## Models
+
+Models are good way of introducing structure.
+AlphaGo: Model is fully known.
+
+Model-based RL: What if we don't know the model - learn from data? [Deisenroth & Rasmussen, Ha & Schmidhuber, Chua et al.]
+
+Terenin, Hofmann & Deisenroth [Steindor's]
+
+## New Challenges
+
+Multi-agent RL in Malmo (MARLO)
 
 
 
+# Invited talk: How To Know by Celeste Kidd
 
+KIDD Lab
 
+5 things everyone in ML should know about humans
+ 1. Humas continuously form beliefs (Book: Beyond Zero and One)
+ 2. Certainty diminishes interest
+ 3. Certainty is driven by feedback
+ 4. Less feedback may encourage overconfidence
+ 5. Humans form beliefs quickly
 
+There is no such thing as a neutral platform.
 
+Our brains are no match for our technology. Nytimes
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-**Invited talk: Celeste Kidd**\
-How To Know
 
 
 
