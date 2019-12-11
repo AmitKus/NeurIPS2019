@@ -14,6 +14,6 @@ Covariate structure: Clustering
 
 Diffusion Maps
 
-
+FLow based models as generating process.
 
 

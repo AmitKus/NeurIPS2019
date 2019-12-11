@@ -130,57 +130,49 @@ How should we understand depth in deep networks?
 
 ## [Orals](https://nips.cc/Conferences/2019/ScheduleMultitrack?text=&session=&event_type=&day=2019-12-10)
 
-04:10 am : West Ballrooms A + B\
-[Causal Confusion in Imitation Learning](https://neurips.cc/Conferences/2019/ScheduleMultitrack?event=15683)\
-[Slides](https://sites.google.com/view/causal-confusion)\
-[3 min video](https://sites.google.com/view/causal-confusion)\
-Pim de Haan (Qualcomm AI Research, University of Amsterdam)\
-Dinesh Jayaraman (UC Berkeley)\
-**Sergey Levine (UC Berkeley)**
+04:10 am :  West Exhibition Hall C + B3\
 
-## [Spotlights](https://nips.cc/Conferences/2019/ScheduleMultitrack?text=&session=&event_type=&day=2019-12-10)
+Representations of Probability Distribution:
 
-West Ballroom C
+    *Bayesian Networks
+    *MRF
+    *Autoregressive 
 
-[Scalable Global Optimization via Local Bayesian Optimization](https://neurips.cc/Conferences/2019/ScheduleMultitrack?event=15740)\
-[Slides](https://drive.google.com/file/d/1I7Xsqh87GenYU9sXnWf1R2dZFKctqlYx/view?usp=sharing)\
-David Eriksson (Uber AI)\
-Michael Pearce (Warwick University)\
-Jacob Gardner (Uber AI Labs)\
-Ryan Turner (Uber AI Labs)\
-Matthias Poloczek (Uber AI)
+From scores to samples: Langevin Dynamics
 
+Score-Based Generative Modeling
 
-[Uncertainty on Asynchronous Time Event Prediction](https://neurips.cc/Conferences/2019/ScheduleMultitrack?event=15741)\
-[Poster](https://github.com/sharpenb/Uncertainty-Event-Prediction/blob/master/assets/poster.pdf)\
-Marin Biloš (Technical University of Munich)\
-Bertrand Charpentier (Technical University of Munich)\
-Stephan Günnemann (Technical University of Munich)
+    * No need to be normalized
+    * No minmax Optimization
 
-[Bayesian Optimization under Heavy-tailed Payoffs](https://neurips.cc/Conferences/2019/ScheduleMultitrack?event=15742)
-[Slides](https://github.com/sayakrc/Bayesian-Optimization-under-Heavy-tailed-Payoffs/blob/master/slides.pdf)\
-Sayak Ray Chowdhury (Indian Institute of Science)\
-Aditya Gopalan (Indian Institute of Science)
+Adding noise and annealing noise levels are critical
 
+Better or comaprable sample quality to GANs
 
-[Variational Bayesian Optimal Experimental Design](https://neurips.cc/Conferences/2019/ScheduleMultitrack?event=15743)\
-[Poster](https://github.com/twgr/variational_oed/blob/master/poster/poster.pdf)\
-Adam Foster (University of Oxford)\
-Martin Jankowiak (Uber AI Labs)\
-Eli Bingham (Uber AI Labs)\
-Paul Horsfall (Uber AI Labs)\
-Yee Whye Teh (University of Oxford, DeepMind)\
-Tom Rainforth (University of Oxford)\
-Noah Goodman (Stanford University)
+## Spotlight 1: Learning hierarchical priors in VAEs
+CMU human motion data
+
+## SPotlight 2: Energy base models to generated high res images
+Energy based models: Hard to train
+
+Why EBM?
+   1. Implicit generation 
+   2. Intriguing properties
+
+EBMs pros:
+1. Robust
+2. Continual Learning
+3. Compositionality
+4. Trajectory mapping
+   
+## SPotlight 3: Invertible convolutional flow
 
 
-[Implicit Posterior Variational Inference for Deep Gaussian Processes](https://neurips.cc/Conferences/2019/ScheduleMultitrack?event=15744)\
-[Slides](https://github.com/HeroKillerEver/ipvi-dgp/blob/master/slides/neurips_slides.pdf)\
-Haibin YU (National University of Singapore)\
-Yizhou Chen (National University of Singapore)\
-Bryan Kian Hsiang Low (National University of Singapore)\
-Patrick Jaillet (MIT)\
-Zhongxiang Dai (National University of Singapore)
+## Spotlight 4: Residual flows
+
+$$y = f(x) = x + g(x)$$
+
+What is Flow based models?
 
 
 ## [Orals](https://nips.cc/Conferences/2019/ScheduleMultitrack?text=&session=&event_type=&day=2019-12-10)
@@ -195,6 +187,27 @@ Austin Narcomey (Stanford University)\
 **Li Fei-Fei (Stanford University)**\
 Michael Bernstein (Stanford University)
 
+### Notes
+
+Evaluation is critcal to measuring progress.
+
+HYPE measures this progress using human evaluation that is consistent.
+
+Why not use automated metrics?
+Density estimation has evn been shwon to be misleading.
+
+Why not use human evaluation?
+
+    *Ad-hoc
+    *High variance estimation
+    *Lack clear separability
+    *Expensive and time consuming
+
+Databases: CelebA, FFHQ
+
+hype.stanford.edu
+
+
 ## [Spotlights](https://nips.cc/Conferences/2019/ScheduleMultitrack?text=&session=&event_type=&day=2019-12-10)
 
 West Exhibition Hall C + B3
@@ -207,6 +220,14 @@ Karteek Alahari (Inria)\
 Cordelia Schmid (Inria / Google)\
 Jakob Verbeek (INRIA)
 
+Look at slides.
+
+1. MLE
+2. Adversarial training
+
+
+
+
 [Twin Auxilary Classifiers GAN](https://neurips.cc/Conferences/2019/ScheduleMultitrack?event=15859)\
 [Slides](https://github.com/batmanlab/twin_ac/blob/master/TAC-GAN.pdf)\
 Mingming Gong (University of Melbourne)\
@@ -214,18 +235,40 @@ Yanwu Xu (University of Pittsburgh)\
 Chunyuan Li (Microsoft Research)\
 Kun Zhang (CMU)\
 Kayhan Batmanghelich (University of Pittsburgh)
-	
+
+Notes:
+Issues with AC-GAN: Low diversity, tends towards mode collapse
+
+
 [Adversarial Fisher Vectors for Unsupervised Representation Learning](https://neurips.cc/Conferences/2019/ScheduleMultitrack?event=15860)\
 [Poster](https://github.com/apple/ml-afv/blob/master/poster.pdf)\
 Joshua Susskind (Apple Inc.)\
 Shuangfei Zhai (Apple)\
 Walter Talbott (Apple)\
 Carlos Guestrin (Apple & University of Washington)
-	
+
+Is the discriminator useful at test time?
+
+Do GANs learn representations of data?
+
+Do you nedd to train an additional encoder?
+
+Energy based model interpretation of GANs
+
+Fisher vectors: Has been successful in computer vision.
+
+
+
 [Emergence of Object Segmentation in Perturbed Generative Models](https://neurips.cc/Conferences/2019/ScheduleMultitrack?event=15861)\
 [Poster](http://www.cvg.unibe.ch/media/publications/pdf/neurips19_perturbedseg_poster.pdf)\
 Adam Bielski (University of Bern)\
 Paolo Favaro (Bern University, Switzerland)
+
+Learning to generate layered scenes with GAN
+
+Random shifts
+
+Learning with perturbations
 
 
 [Compression with Flows via Local Bits-Back Coding](https://neurips.cc/Conferences/2019/ScheduleMultitrack?event=15862)\
@@ -233,6 +276,13 @@ Paolo Favaro (Bern University, Switzerland)
 Jonathan Ho (UC Berkeley)\
 Evan Lohn (University of California, Berkeley)\
 **Pieter Abbeel (UC Berkeley & covariant.ai)**
+
+Flow modesls: smooth invertible maps between noise and data.
+
+Local bits-back coding: compression with flow models.
+
+
+
 
 
 # Demonstrations

@@ -106,3 +106,34 @@ COVARIATE STRUTURE is robust.
 Diffusion maps
 
 
+# Test of time award talk
+
+
+Stochastic gradient descent (SGD):
+
+Online convex optimization
+
+Compressed sensing/ sparse optimization: 
+greedy algorithms: matching pursuit, LARS etc
+
+Proximal gradient method:
+ * forward-backward splitting
+ * soft-thresholding
+
+
+## Nonconvex optimization
+very active in recent years because of deep learning problems
+
+    *stochastic grdient and online algorithms are mainstays in ML
+    *(structured) sparsity is essential in scaling up large models.
+
+
+
+
+
+
+
+
+
+
+
