@@ -16,4 +16,4 @@ Diffusion Maps
 
 FLow based models as generating process.
 
-
+Hebbian Learning

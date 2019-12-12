@@ -1,7 +1,5 @@
 # Dec 11, Wednesday 
 
-![](pictures/Wednesday_Day4_Glance.png)
-
 
 ## [Orals](https://nips.cc/Conferences/2019/ScheduleMultitrack?text=&session=&event_type=&day=2019-12-11)
 
@@ -12,6 +10,14 @@ Vincent Sitzmann (Stanford University)\
 Michael Zollhoefer (Facebook Reality Labs)\
 Gordon Wetzstein (Stanford University)
 
+Notes:
+What can we learn about latent 3D scenes from observations?
+
+Observtion -> encoder + latent code + decoder -> Re-rendered 
+
+Need 3D inductive bias.
+
+
 ## [Spotlights](https://nips.cc/Conferences/2019/ScheduleMultitrack?text=&session=&event_type=&day=2019-12-11)
 
 10:20 am : West Exhibition Hall C + B3	
@@ -21,16 +27,30 @@ Gordon Wetzstein (Stanford University)
 Qixing Huang (The University of Texas at Austin)\
 Zhenxiao Liang (The University of Texas at Austin)
 
+
+
+
+
 [Cascade RPN: Delving into High-Quality Region Proposal Network with Adaptive Convolution](https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15866)\
 Thang Vu (KAIST)\
 Hyunjun Jang (KAIST)\
 Trung X. Pham (KAIST)\
 Chang Yoo (KAIST)
 
+
 [Probabilistic Watershed: Sampling all spanning forests for seeded segmentation and semi-supervised learning](https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15867)\
 Enrique Fita Sanmartin (Heidelberg University)\
 Sebastian Damrich (Heidelberg University)\
 Fred Hamprecht (Heidelberg University)
+
+Notes: 
+* Graph
+* Seeds (label nodes)
+* Endge-costs ~ affinity between nodes
+* Forest
+
+**Probabilisic watershed = Random walk (grady, 2006)**
+
 
 [DM2C: Deep Mixed-Modal Clustering](https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15868)\
 Yangbangyan Jiang (Chinese Academy of Sciences)\
@@ -38,6 +58,14 @@ Qianqian Xu (Chinese Academy of Sciences)\
 Zhiyong Yang (University of Chinese Academy of Sciences)\
 Xiaochun Cao (Chinese Academy of Sciences)\
 Qingming Huang (University of Chinese Academy of Sciences)
+
+Multi-modal data.
+
+**Unsupervised learning under multiple modalities since it works without data labels.**
+
+Multi-modal data and Mixed-modal data.
+
+
 
 [Learning Object Bounding Boxes for 3D Instance Segmentation on Point Clouds](https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15869)\
 Bo Yang (University of Oxford)\
@@ -62,6 +90,15 @@ Himanshu Rai (Layer6 AI)\
 Junwei Ma (Layer6 AI)\
 Satya Krishna Gorti (Layer6 AI)
 
+Notes: 
+Graph Convolutional Network
+
+ROxford and Rparis data set for image retrieval.
+
+CNN Model; GEM
+
+www.layer6.ai
+
 
 ## [Spotlights](https://nips.cc/Conferences/2019/ScheduleMultitrack?text=&session=&event_type=&day=2019-12-11)
 
@@ -74,12 +111,20 @@ John Bronskill (University of Cambridge)\
 Sebastian Nowozin (Google Research Berlin)\
 Richard Turner (Cambridge)
 
+Notes: Image classification is low data setting.
+
+Meta-Dataset
+
 
 [Multimodal Model-Agnostic Meta-Learning via Task-Aware Modulation](https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15705)\
 Risto Vuorio (University of Michigan)\
 Shao-Hua Sun (University of Southern California)\
 Hexiang Hu (University of Southern California)\
 Joseph Lim (University of Southern California)
+
+Notes: 
+
+MAML: Model Agnostic Meta Learning
 
 
 [Efficient Meta Learning via Minibatch Proximal Update](https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15706)\
@@ -89,6 +134,10 @@ Huan Xu (Alibaba Group)\
 Shuicheng Yan (National University of Singapore)\
 Jiashi Feng (National University of Singapore)
 
+Notes:
+
+
+
 
 [Reconciling meta-learning and continual learning with online mixtures of tasks](https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15707)\
 Ghassen Jerfel (Duke University)\
@@ -96,8 +145,15 @@ Erin Grant (UC Berkeley)\
 Tom Griffiths (Princeton University)\
 Katherine Heller (Google)
 
+Notes:
 
+Meta-learning algorithms often assume all tasks are equally related.
 
+Motivation: 
+* Incorporate heterogeneity
+* Non-stationarity
+
+Dataset: minilmage Net
 
 
 ## [Orals](https://nips.cc/Conferences/2019/ScheduleMultitrack?text=&session=&event_type=&day=2019-12-10)
@@ -109,30 +165,25 @@ Joshua Tobin (OpenAI)\
 Wojciech Zaremba (OpenAI)\
 Pieter Abbeel (UC Berkeley & covariant.ai)
 
-## [Spotlights](https://nips.cc/Conferences/2019/ScheduleMultitrack?text=&session=&event_type=&day=2019-12-10)
+Notes:
 
-4:40 pm : West Exhibition Hall C + B3
+Noisy observations -> actions
 
-[Cold Case: The Lost MNIST Digits](https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15877)\
-Chhavi Yadav (NYU)\
-**Leon Bottou (Facebook AI Research)**
+Noisy observations -> state representatoion -> actions
 
-[An adaptive nearest neighbor rule for classification](https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15878)\
-Akshay Balsubramani (Stanford)\
-Sanjoy Dasgupta (UC San Diego)\
-Yoav Freund (UCSD)\
-Shay Moran (Google AI Princeton)
+This work extends Generative Query Nets (GQN)
 
-[Multilabel reductions: what is my loss optimising?](https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15879)\
-Aditya Menon (Google)\
-Ankit Singh Rawat (Google Research)\
-Sashank Reddi (Google)\
-Sanjiv Kumar (Google Research)
+Approach: Add attention
 
-[Optimal Sparse Decision Trees](https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15880)\
-Xiyang Hu (Carnegie Mellon University)\
-Cynthia Rudin (Duke)\
-Margo Seltzer (University of British Columbia)
+## Neural State Machine: Chris Manning
+
+A differential graph based model.
+
+Dataset: GQA, VQA-CP
+
+
+
+
 
 
 # Demonstrations

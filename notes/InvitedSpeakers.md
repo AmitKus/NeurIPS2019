@@ -128,6 +128,151 @@ very active in recent years because of deep learning problems
     *(structured) sparsity is essential in scaling up large models.
 
 
+# Social Intelligence by Blaise Aguera y Arcas (Google Research)
+
+Brain, 2011-\
+Cerebra, 2014- (many, plural, local, heterogeneous, individual, small, low power, personal, private)
+
+coral.ai
+
+Running worloads locally is an important (but not sufficient) tool for implementing privacy.
+
+Energy cost is bascially involved in moving data from A to B. More computing near where data is stored the more efficient in terms of power.
+
+federated.withgoogle.com
+
+    * Data are both abundant and rare/precious
+    * Compute is both massive and limited/precious
+    * Premium on quick convergence, i.e. < 1 pass over data
+    * FL both enables ML fairness and can be in tension with it.
+
+Generative models are really important in the Federated setting.
+
+Patricia Churchland
+
+Nagarajan and Kolter, Gradient descent GAN optimization is locally stable. NeurIPS 2017
+
+Optimization is not exactly how life works
+
+Optimization as a model for few-shot learning
+
+Self-organizing neural cellular automata.
+
+cool demo: etr.users.x20web.corp
+
+Grand challenges:
+
+    * Brains with fully evolved architestures and rules
+    * Understanding and characterizing evolved systems.
+    * Problem solving by artificial society.
+    * Large-scale meta-learning in the Federated learning
+    * Purposive "artifical ecology: engineering
+    * Dynamical systems theory for neural ensembles?
+    * Can we define quantitative "SOTAs" for sociality?
+    * Practical "curved space" approach to AI ethics?
+
+
+# From system 1 deep learning to system 2 deep learning by Youshu Bengio
+
+* Narrow AI
+* Sample efficeincy
+* Human-provided labels
+* Robustness and stupid errors
+
+Missing to extend DL to reach human-level AI
+* Out-of-distribution generalization & transer
+* Higher-level cognition: system 1 -> system 2
+* Agend perspective
+  * Better world model
+  * Causality
+  * Knowledge-seeking
+
+## Consiousness functionalities: Roadmap for priors empowering system 2
+
+1. ML goals: handle changes in distribution, necessary for agents.
+2. System 2 basics: attention & consiousness
+3. COnsiousness prior: sparse factor graph.
+4. Theoretical framework: meta-learning, localized cahnge hypothesis -> causal discovery.
+5. Compsotional DL architectures: operating on sets of pointable objects dynamically recombined modules
+
+
+## From IID to OOD
+
+* Classical ML theory for iid data\
+L. Bottou 2019: Nature does not shuffle data, we shouldn't
+
+* Out-of-distribtuion generalization and transfer
+  * Agents face non-stationarities
+  * Changes in distribution due to:
+    * their actions
+    * actions of others
+    * differnt places, times, sensors, actuators, goals, policies etc
+
+## Compositionality helps IID and OOD generalization:
+
+* Distributed representations
+* Compostion of layers in deep net
+* Systematics generalization in language analogies
+  * Studied in linguistics
+  * Dynamically recombine existing concepts
+  * Even when new combinations have 0 probability under training distribution, e.g. science fiction
+
+## Core ingredient for consiousness: Attention
+
+* Focus on a one or a fewelements at a time
+* Content-based soft attention
+* Attention is an internal action, needs a learned attention policy
+* Attention = dynamic connection
+
+## From attention to consiousness
+
+Global workspce theory
+
+## The consiousness prior: sparse factor graph
+
+* Attention: to form consious state, thought
+* A thought is a low-dimensional object
+  
+## Meta-learning for training towards OOD generalization
+
+* Meta-learning or learning to learn
+* Multiple time scales of learning
+* End-to-end learning to generalize to OOD
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
