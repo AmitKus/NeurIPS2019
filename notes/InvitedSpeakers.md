@@ -239,12 +239,47 @@ Global workspce theory
 * Multiple time scales of learning
 * End-to-end learning to generalize to OOD
   
-  
-  
+
+# Mapping emotions: Discovering structure in mesoscale electrical brain recordings by Kafui Dziras
+
+Brain Initiative: How to treat neurological, pshychatric
+
+Causality:
+
+Depression: Most debilaiting illness in the world.
+
+Emotions as latent networks: Kragel et al. Plos Biology 2016
+
+Assumptions: 
+* Emotions are an emergent feature of brain cells interaction (think sleep)
+* Local field potentials signal the activity of populations of neurons (emergent feature)
 
 
+# Agency + Automation by Jefrey Heer
 
+## Balancing Automation and Control
 
+Challenge of Autmation
+
+Challenge of User Control
+
+Strategy: Shared Representations
+
+**Tools**\
+D3: Data-driven documents\
+Vega: Vega\
+Data Voyager\
+Data Wrangler\
+Company: Trifacta
+
+Chuang et al.
+**Topic Model Visualization**
+
+Mapping Machine-Learned Latent Space:
+
+What make visualization "good"?
+
+Big Data Borat
 
 
 

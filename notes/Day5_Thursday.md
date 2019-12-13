@@ -10,6 +10,19 @@
 
 James J DiCarlo (Massachusetts Institute of Technology)
 
+www.Brain-Score.com
+
+Most brain-like models stem from Imagenet and ResNet.
+
+1. Difficult tot map anatomy
+2. No temporal response
+
+Stronger test of recurrence: temporal dynamics
+
+github.com/dicarlolab/neurips2019
+
+
+
 
 ## [Spotlights](https://nips.cc/Conferences/2019/ScheduleMultitrack?text=&session=&event_type=&day=2019-12-12)
 
@@ -21,6 +34,9 @@ Yixin Zhu (University of California, Los Angeles)\
 HongJing Lu (UCLA)\
 Song-Chun Zhu (UCLA)
 
+Raven's progrssive matrices is a representative task "thinking in pictures"
+
+
 [Universality and individuality in neural dynamics across large populations of recurrent networks](https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15884)\
 Niru Maheswaranathan (Google Brain)\
 Alex Williams (Stanford University)\
@@ -28,10 +44,16 @@ Matthew Golub (Stanford University)\
 Surya Ganguli (Stanford)\
 David Sussillo (Google Inc.)
 
+Why should biological and artifical networks be similar?
+
+Evidence OF BOTH UNIVERSALITY AND INDIVIDUALITY.
+
 
 [Better Transfer Learning with Inferred Successor Maps](https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15885)\
 Tamas Madarasz (University of Oxford)\
 Tim Behrens (University of Oxford)
+
+
 
 
 [A unified theory for the origin of grid cells through the lens of pattern formation](https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15886)\
@@ -40,13 +62,26 @@ Gabriel Mel (Stanford University)\
 Surya Ganguli (Stanford)\
 Samuel Ocko (Stanford)
 
+Grid cells.
+
+Trained neural networks learn grid patterns.
+
+Why are the optimal maps grid-like?\
+Translational invariance -> Fourier grids
+
+What determines the optimizal grid-type?
+
+Poster# 
+
+
+
 [Infra-slow brain dynamics as a marker for cognitive function and decline](https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15887)\
 Shagun Ajmera Shyam Sunder Ajmera (Indian Institute of Science)\
 Shreya Rajagopal (Indian Institute of Science)\
 Razi Rehman (Indian Institute of Science)\
 Devarajan Sridharan (Indian Institute of Science)
 
-## Or
+## Oral
 
 **West Ballrooms A + B**
 
@@ -90,6 +125,7 @@ Serge Belongie (Cornell University)
 Saeed Sharifi-Malvajerdi (University of Pennsylvania)\
 Michael Kearns (University of Pennsylvania)\
 Aaron Roth (University of Pennsylvania)
+
 
 
 
