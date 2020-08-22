@@ -1,6 +1,6 @@
 # NeurIPS2019
 
-Notes from the NeurIPS 2019 conference by Amit Kushwaha
+Notes from the NeurIPS 2019 conference by Amit Kushwaha.
 
 ![](schedule/pictures/ConferenceGlance.png)
 
