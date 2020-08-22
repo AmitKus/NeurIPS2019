@@ -8,7 +8,7 @@ Notes from the NeurIPS 2019 conference by Amit Kushwaha.
 * [Day 4 Notes](notes/Day4_Wednesday.md)
 * [Day 5 Notes](notes/Day5_Thursday.md)
 * [Day 6 Notes](notes/Day6-7_Friday-Saturday.md)
-* [Day 7 Notes](notes/Day8_Saturday.md)
+* [Day 7 Notes](notes/Day7_Saturday.md)
 
 ![](schedule/pictures/ConferenceGlance.png)
 
